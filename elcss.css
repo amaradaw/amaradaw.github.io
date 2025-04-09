@@ -134,3 +134,10 @@
     gap: 1rem;
     max-width: 400px;
   }
+
+  .formulario input,
+.formulario textarea {
+  padding: 0.8rem;
+  border: 1px solid #e7b7c2;
+  border-radius: 8px;
+}
