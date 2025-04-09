@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-color: #f9d8d6;
+  background-color: #fceaf4;
   padding: 1.5rem 2rem;
   color: #6b4e4e;
 }
@@ -43,6 +43,9 @@ nav a:hover {
 
 .hero {
   background: linear-gradient(to right, #f9d8d6, #e7d9f5);
+  background-image: url('back3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 400px;
   display: flex;
   justify-content: center;
@@ -62,8 +65,8 @@ nav a:hover {
 }
 .boton-hero {
   padding: 0.8rem 1.8rem;
-  border: 2px solid white;
-  color: white;
+  border: 2px solid #444;
+  color: #444;
   background-color: transparent;
   border-radius: 30px;
   text-decoration: none;
@@ -71,8 +74,8 @@ nav a:hover {
   transition: all 0.3s ease;
 }
 .boton-hero:hover {
-  background-color: white;
-  color: #333;
+  background-color: rgb(16, 15, 15);
+  color: #fcf3f3;
 }
 
 .section {
@@ -98,13 +101,13 @@ nav a:hover {
   box-shadow: 0 3px 6px rgba(0,0,0,0.05);
 }
 .card1 {
-  background-image: url('aurora.jpg');
+  background-image: url('aurora.webp');
 }
 .card2 {
-  background-image: url('mistico.jpg');
+  background-image: url('aurora2.webp');
 }
 .card3 {
-  background-image: url('brisa.jpg');
+  background-image: url('aurora3.png');
 }
 
 .galeria-texto {
@@ -142,7 +145,6 @@ nav a:hover {
   background-image: url('perfume3.jpg');
 }
 
-/* FOTO CON TEXTO */
 .foto-texto {
   display: flex;
   flex-wrap: wrap;
