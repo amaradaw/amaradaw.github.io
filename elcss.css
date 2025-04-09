@@ -36,3 +36,14 @@
     text-decoration: none;
     font-weight: bold;
   }
+
+  .hero {
+    background: linear-gradient(to right, #f9d8d6, #e7d9f5);
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    color: #5a4a4a;
+  }
