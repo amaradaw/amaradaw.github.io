@@ -84,3 +84,14 @@
   .card3 {
     background-image: url('perfume3.jpg');
   }
+
+  .galeria-texto p {
+    margin-top: 1rem;
+    max-width: 700px;
+  }
+  
+  .galeria-imagenes .imagenes {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
