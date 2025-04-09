@@ -62,3 +62,18 @@
     gap: 1.5rem;
     margin-top: 2rem;
   }
+
+  .card {
+    background-color: #ffeef2;
+    border: 1px solid #f5dada;
+    border-radius: 12px;
+    padding: 1.2rem;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    min-height: 220px;
+    color: #333;
+  }
+  .card1 {
+    background-image: url('perfume1\ -\ copia.jpg'); 
+}
