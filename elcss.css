@@ -141,3 +141,13 @@
   border: 1px solid #e7b7c2;
   border-radius: 8px;
 }
+
+.formulario button {
+    padding: 0.8rem;
+    background-color: #e7b7c2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
