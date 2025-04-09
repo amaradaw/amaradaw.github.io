@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #fff8f4;
+  background-color: #ffe6f3;
   color: #444;
   line-height: 1.6;
 }
@@ -97,17 +97,22 @@ nav a:hover {
   background-size: cover;
   background-position: center;
   min-height: 220px;
-  color: #333;
+  color: #040404;
   box-shadow: 0 3px 6px rgba(0,0,0,0.05);
 }
+
+.centrado {
+    text-align: center;
+  }
+
 .card1 {
-  background-image: url('aurora.webp');
+  background-image: url('imagen2.webp');
 }
 .card2 {
-  background-image: url('aurora2.webp');
+  background-image: url('imagen1.webp');
 }
 .card3 {
-  background-image: url('aurora3.png');
+  background-image: url('imagen3.webp');
 }
 
 .galeria-texto {
