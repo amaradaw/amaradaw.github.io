@@ -151,3 +151,9 @@
     cursor: pointer;
   }
   
+  footer {
+    background-color: #f5cfd3;
+    text-align: center;
+    padding: 1rem;
+    color: #6b4e4e;
+  }
