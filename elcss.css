@@ -77,3 +77,10 @@
   .card1 {
     background-image: url('perfume1\ -\ copia.jpg'); 
 }
+
+.card2 {
+    background-image: url('perfume2.jpg');
+  }
+  .card3 {
+    background-image: url('perfume3.jpg');
+  }
