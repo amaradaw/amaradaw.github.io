@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+    --bg-color: #fff0f5;
+    --card-bg: #ffffff;
+    --primary-pink: #ff6b8b;
+    --hover-pink: #ff477e;
+    --light-pink: #ffe3ec;
+    --text-color: #4a3e43;
+    --shadow: 0 10px 25px rgba(255, 107, 139, 0.15);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ffe6ee 0%, #fff0f5 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    color: var(--text-color);
+}
+
+.card {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    border: 2px solid #ffd1dc;
+    max-width: 500px;
+    width: 100%;
+}
+
+.btn-back {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: var(--primary-pink);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+h2 { color: var(--primary-pink); margin-bottom: 0.5rem; }
+p { margin-bottom: 1.5rem; font-size: 0.95rem; }
+
+input, button, select {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ffccd5;
+    font-family: inherit;
+}
+
+button {
+    background-color: var(--primary-pink);
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover { background-color: var(--hover-pink); }
+
+.result-box {
+    background-color: var(--light-pink);
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: 600;
+    word-break: break-all;
+}
