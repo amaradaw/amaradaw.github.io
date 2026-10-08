@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+    --bg-color: #fff0f5;         
+    --card-bg: #ffffff;          
+    --primary-pink: #ff6b8b;     
+    --hover-pink: #ff477e;       
+    --light-pink: #ffe3ec;       
+    --text-color: #4a3e43;      
+    --shadow: 0 10px 25px rgba(255, 107, 139, 0.15);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ffe6ee 0%, #fff0f5 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    color: var(--text-color);
+}
+
+
+h1 {
+    color: var(--primary-pink);
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(255, 182, 193, 0.4);
+    position: relative;
+}
+
+
+h1::after {
+    font-size: 1.2rem;
+    margin-left: 8px;
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+    width: 100%;
+    max-width: 900px;
+    background: var(--card-bg);
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    border: 2px solid #ffd1dc;
+}
+
+li {
+    width: 100%;
+}
+
+li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 1rem;
+    background-color: var(--light-pink);
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border-radius: 12px;
+    border: 1px solid #ffccd5;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+}
+
+li a:hover {
+    background-color: var(--primary-pink);
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(255, 107, 139, 0.35);
+    border-color: var(--primary-pink);
+}
+
+li a:active {
+    transform: translateY(-1px);
+}
+
+@media (max-width: 600px) {
+    ul {
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        padding: 1.5rem;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+}
