@@ -1,7 +1,8 @@
-// ejercicio3/script.js
-function verificarNumero(num) {
-    const esPar = num % 2 === 0;
-    const resultadoText = `El número ${num} es ${esPar ? 'PAR' : 'IMPAR'}.`;
-    document.getElementById('resultado').textContent = resultadoText;
+// Ejercicio 3: Saber si un número es par o impar
+let numero = 7;
+
+if (numero % 2 === 0) {
+    document.getElementById('resultado').innerHTML = "El número " + numero + " es PAR.";
+} else {
+    document.getElementById('resultado').innerHTML = "El número " + numero + " es IMPAR.";
 }
-verificarNumero(7);

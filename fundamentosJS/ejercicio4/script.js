@@ -1,11 +1,8 @@
-// ejercicio4/script.js
-function evaluarEdad(edad) {
-    let res = "";
-    if (edad >= 18) {
-        res = `Tiene ${edad} años: Es mayor de edad.`;
-    } else {
-        res = `Tiene ${edad} años: Es menor de edad.`;
-    }
-    document.getElementById('resultado').textContent = res;
+// Ejercicio 4: Condicional de edad
+let edad = 20;
+
+if (edad >= 18) {
+    document.getElementById('resultado').innerHTML = "Tienes " + edad + " años. Eres mayor de edad.";
+} else {
+    document.getElementById('resultado').innerHTML = "Tienes " + edad + " años. Eres menor de edad.";
 }
-evaluarEdad(20);

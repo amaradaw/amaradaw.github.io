@@ -1,10 +1,10 @@
-// ejercicio6/script.js
+// Ejercicio 6: Cuenta atrás con bucle while
 let contador = 10;
-let texto = "Conteo regresivo: ";
+let resultado = "Cuenta atrás: ";
 
 while (contador >= 0) {
-    texto += contador + (contador === 0 ? "." : ", ");
+    resultado += contador + " ";
     contador--;
 }
 
-document.getElementById('resultado').textContent = texto;
+document.getElementById('resultado').innerHTML = resultado;
